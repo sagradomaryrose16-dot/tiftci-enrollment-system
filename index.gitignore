@@ -1,0 +1,17 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore environment secrets
+.env
+
+# Ignore database credentials if you have separate config
+config.php
+db.php
+connection.php
+
+# Ignore ZIP backups
+*.zip
